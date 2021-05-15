@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="volumepage" layoutX="50" prefHeight="500" prefWidth="700" style="-fx-background-color:black" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.OptionPageController">
+   <children>
+      <Region layoutX="75.0" layoutY="295.0" prefHeight="48.0" prefWidth="585.0" style="-fx-background-color: #5a3fd1; -fx-opacity: 0.3;" />
+      <Region layoutX="71.0" layoutY="174.0" prefHeight="48.0" prefWidth="585.0" style="-fx-background-color: #09acf2; -fx-opacity: 0.3;" />
+     <Button fx:id="closeBtn" alignment="CENTER" layoutX="341.0" layoutY="436.0" mnemonicParsing="false" onAction="#closeClick" prefHeight="15.0" prefWidth="60" style="-fx-background-color:red; -fx-text-fill: white; -fx-font-size: 10pt; -fx-font-weight: normal" text="close" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+               <Label fx:id="optionlabel" alignment="CENTER" layoutX="277.0" layoutY="24.0" style="-fx-text-fill: red; -fx-font-size: 25pt; -fx-font-weight: normal;" text="&lt;VOLUME&gt;" />
+      <Slider fx:id="backvolume" layoutX="78.0" layoutY="189.0" prefHeight="18.0" prefWidth="435.0" />
+      <Slider fx:id="effectvolume" layoutX="78.0" layoutY="310.0" prefHeight="18.0" prefWidth="435.0" />
+      <CheckBox fx:id="mutebackvolume" layoutX="584.0" layoutY="184.0" mnemonicParsing="false" text="ON" textFill="#09acf2">
+         <font>
+            <Font size="20.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="muteeffectvolume" layoutX="584.0" layoutY="304.0" mnemonicParsing="false" text="ON" textFill="#5a3fd1">
+         <font>
+            <Font size="20.0" />
+         </font></CheckBox>
+      <Label layoutX="66.0" layoutY="127.0" prefHeight="40.0" prefWidth="227.0" text="BackgroundMusic" textFill="#09acf2">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <Label layoutX="66.0" layoutY="250.0" prefHeight="40.0" prefWidth="177.0" text="Effect Sound" textFill="#5a3fd1">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <Label fx:id="backvolab" layoutX="523.0" layoutY="179.0" prefHeight="40.0" prefWidth="51.0" text="Label" textFill="#FFFFFF">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="effectvolab" layoutX="523.0" layoutY="300.0" prefHeight="40.0" prefWidth="51.0" text="Label" textFill="#FFFFFF">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ImageView fx:id="mute" fitHeight="40.0" fitWidth="37.0" layoutX="26.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="mute1" fitHeight="40.0" fitWidth="37.0" layoutX="26.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

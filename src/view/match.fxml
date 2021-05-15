@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="matchpane" layoutX="280" layoutY="150" prefHeight="140" prefWidth="240" style="-fx-background-color: ivory; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.matchController">
+   <children>
+      <TextField fx:id="Usernamefield" layoutX="20.0" layoutY="23.0" prefHeight="43.0" prefWidth="207.0" promptText="Choose your Username" style="-fx-border-radius: 3px;" />
+      <Button fx:id="createBtn" layoutX="137.0" layoutY="79.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="79.0" style=" -fx-background-color:#87CEEB; -fx-text-fill:white; -fx-font-size: 11pt" text="Next" />
+   </children>
+</AnchorPane>

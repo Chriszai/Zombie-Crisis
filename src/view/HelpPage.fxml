@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="container02" layoutX="50"
+	prefHeight="430" prefWidth="650" style="-fx-background-color:grey"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="view.HelpPageController">
+	<children>
+		<Label fx:id="help" alignment="CENTER" layoutX="305.0"
+			layoutY="20.0"
+			style="-fx-text-fill: black; -fx-font-size: 25pt; -fx-font-weight: normal"
+			text="&lt;HELP&gt;" />
+		<Label fx:id="help" alignment="CENTER" layoutX="105.0"
+			layoutY="100.0"
+			style="-fx-text-fill: black; -fx-font-size: 15pt; -fx-font-weight: normal"
+			text="Single player：use keys ( W A S D )to move" />
+		<Label fx:id="help" alignment="CENTER" layoutX="105.0"
+			layoutY="200.0"
+			style="-fx-text-fill: black; -fx-font-size: 15pt; -fx-font-weight: normal"
+			text="player1 use keys ( W A S D )to move and shift for attack" />
+		<Label fx:id="help" alignment="CENTER" layoutX="105.0"
+			layoutY="300.0"
+			style="-fx-text-fill: black; -fx-font-size: 15pt; -fx-font-weight: normal"
+			text="player1 use keys ( J K L I )to move and / for attack" />
+		<Label fx:id="help" alignment="CENTER" layoutX="105.0"
+			layoutY="130.0"
+			style="-fx-text-fill: black; -fx-font-size: 15pt; -fx-font-weight: normal"
+			text="and use 'J' to attack" />
+		<Label fx:id="help" alignment="CENTER" layoutX="105.0"
+			layoutY="350.0"
+			style="-fx-text-fill: black; -fx-font-size: 15pt; -fx-font-weight: normal"
+			text="Goal : Get 400 points and kill all the zombies in the map." />
+		<Button fx:id="prevBtn" layoutX="85" layoutY="40.0"
+			onAction="#nextprevBtn" prefHeight="33.0" prefWidth="104.0"
+			style="-fx-background-color: grey; -fx-text-fill: white; -fx-font-size: 13pt; -fx-font-weight: normal"
+			text="&lt;&lt;prev" />
+	</children>
+</AnchorPane>
