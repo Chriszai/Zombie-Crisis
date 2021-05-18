@@ -20,7 +20,7 @@ public class ZombiesView extends ImageView {
 	double diffy;
 	public int count;
 	public int en = 0;
-	public double speedList[] = { 0.05, 0.05 };
+	public double speedList[] = { 0.04, 0.04 };
 	public int zombiesID[] = { 1, 2, 3, 1, 4, 2, 1, 2, 1, 3, 1 };
 	public int[][] location = { { 6, 7 }, { 12, 4 }, { 14, 8 } };
 	int len1;
